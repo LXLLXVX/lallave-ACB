@@ -66,5 +66,3 @@ To set up the project locally, follow these steps:
 
 4. **Start the development server:**
      npm run dev
-
-6. 
