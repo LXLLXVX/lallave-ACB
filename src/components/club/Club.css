@@ -1,0 +1,25 @@
+.club {
+    width: 20rem;
+    height: 25rem;
+    border-radius: 0.2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 2rem;
+  }
+  
+  .club-image {
+    width: 300px;
+    height: 320px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: block;
+    margin: auto;
+  }
+
+  .club-image:hover {
+    transform: scale(1.05); /* Hace que la imagen crezca un poco */
+    box-shadow: 0px 10px 20px #001338(0, 0, 0, 0.4); 
+  }
+
+

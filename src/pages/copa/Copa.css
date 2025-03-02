@@ -1,0 +1,79 @@
+/* Copa.css */
+.copa-container{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.copa-container-right{
+    width: 40%;
+    background-color: var(--middle-header);
+}
+
+
+
+
+
+
+
+
+
+
+.copa-container-left {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 60%;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #0a1c33;
+  }
+  
+  .section {
+    background-color:#0a1c33;
+    border-radius: 8px;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: #0a1c33;
+  }
+  
+  .section h2 {
+    font-size: 1.8rem;
+    color: #1e3a56;
+    margin-bottom: 15px;
+  }
+  
+  .section p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  .section-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px 0;
+  }
+  
+  .section img {
+    max-width: 100%;
+    display: block;
+    border-radius: 8px;
+  }
+  
+  /* Estilo adicional para las imágenes que podrían tener bordes más deportivos */
+  .section img {
+    border: 3px solid #0a1c33;
+    height: 235px;
+    width: 420px;
+  }
+  

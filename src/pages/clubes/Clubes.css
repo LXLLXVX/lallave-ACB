@@ -1,0 +1,7 @@
+.clubes-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem; /* Espaciado entre los clubes */
+    padding: 2rem;
+}

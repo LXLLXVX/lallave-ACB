@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+}
+
+* {
+    margin: 0;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .header {
+        min-width: auto;
+        width: 100%;
+    }
+
+    .teams-bar {
+        overflow-x: scroll;
+        justify-content: flex-start;
+    }
+
+    .main-content {
+        padding: 10px;
+    }
+
+    .news-container {
+        flex-direction: column;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .header {
+        min-width: auto;
+        width: 100%;
+    }
+
+    .teams-container {
+        gap: 1rem;
+    }
+
+    .news-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .teams-container {
+        gap: 1.5rem;
+    }
+
+    .main-content {
+        padding: 15px;
+    }
+
+    .news-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .teams-container {
+        gap: 2rem;
+    }
+
+    .main-content {
+        padding: 20px;
+    }
+
+    .news-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .main-content {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    .teams-container {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+}
