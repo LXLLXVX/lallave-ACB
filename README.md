@@ -46,7 +46,6 @@ This project is built using the latest web technologies to ensure a smooth and r
 - **HTML5** – Semantic structure for better accessibility.  
 - **CSS** – Modern styling with animations and responsive design.  
 - **JavaScript (ES6+)** – Dynamic content rendering and interactive elements.  
-- **Bootstrap** – Ensures a mobile-friendly layout.  
 - **GitHub** – Version control and collaboration.  
 
 ---
