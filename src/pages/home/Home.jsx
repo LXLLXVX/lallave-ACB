@@ -35,19 +35,19 @@ const Home = () => {
           <h2>Últimas Noticias</h2>
           <div className="news-container">
             <div className="news-item">
-              <img src="/images/noticias/gran-canaria.jpg" alt="Gran Canaria consigue una victoria épica" />
+              <img src="\images\home-images\epica.jpg" alt="Gran Canaria consigue una victoria épica" />
               <h3>Gran Canaria consigue una victoria épica</h3>
               <a href="#">Leer más</a>
             </div>
 
             <div className="news-item">
-              <img src="/images/noticias/clasico.jpg" alt="Barcelona y Madrid luchan por el liderato" />
+              <img src="\images\home-images\liderato.jpg" alt="Barcelona y Madrid luchan por el liderato" />
               <h3>Barcelona y Madrid luchan por el liderato</h3>
               <a href="#">Leer más</a>
             </div>
 
             <div className="news-item">
-              <img src="/images/noticias/unicaja.jpg" alt="Unicaja sorprende con su remontada" />
+              <img src="\images\home-images\remontada.webp" alt="Unicaja sorprende con su remontada" />
               <h3>Unicaja sorprende con su remontada</h3>
               <a href="#">Leer más</a>
             </div>

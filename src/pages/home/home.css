@@ -65,7 +65,8 @@ button:hover {
   padding: 20px;
   border-radius: 10px;
   margin-bottom: 20px;
-}
+  width: 90%;
+  }
 
 .matches h2, .standings h2, .news h2 {
   color: #686659;
