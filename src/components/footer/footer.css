@@ -102,6 +102,16 @@
   text-decoration: underline;
 }
 
+.footer-links{
+  display: flex;
+  justify-content: center;
+  }
+
+.footer-link{
+  padding: 5px;
+}
+
+
 /* Responsive */
 
 @media (max-width: 768px) {

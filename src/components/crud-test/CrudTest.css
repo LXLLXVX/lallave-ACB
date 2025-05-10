@@ -1,0 +1,134 @@
+.crud-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #242424;
+    border-radius: 8px;
+}
+
+.crud-container h2 {
+    color: #686659;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.crud-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.crud-form select {
+    padding: 10px;
+    border: 1px solid #4a4a4a;
+    border-radius: 4px;
+    flex: 1;
+    min-width: 200px;
+    background-color: #2a2a2a;
+    color: white;
+    cursor: pointer;
+}
+
+.crud-form select option {
+    background-color: #2a2a2a;
+    color: white;
+    padding: 10px;
+}
+
+.crud-form input::placeholder {
+    color: #888;
+}
+
+.crud-form button {
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    min-width: 150px;
+}
+
+.crud-form button:hover {
+    background-color: #357abd;
+}
+
+.players-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.player-card {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    transition: transform 0.2s;
+}
+
+.player-card:hover {
+    transform: translateY(-5px);
+}
+
+.player-card h3 {
+    color: #4a90e2;
+    margin-bottom: 10px;
+}
+
+.player-card p {
+    margin: 5px 0;
+    color: #ddd;
+}
+
+.player-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.player-actions button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    flex: 1;
+}
+
+.player-actions button:first-child {
+    background-color: #4a90e2;
+    color: white;
+}
+
+.player-actions button:first-child:hover {
+    background-color: #357abd;
+}
+
+.player-actions button:last-child {
+    background-color: #dc3545;
+    color: white;
+}
+
+.player-actions button:last-child:hover {
+    background-color: #c82333;
+}
+
+@media (max-width: 768px) {
+    .crud-form {
+        flex-direction: column;
+    }
+    
+    .crud-form input {
+        min-width: 100%;
+    }
+    
+    .players-list {
+        grid-template-columns: 1fr;
+    }
+}

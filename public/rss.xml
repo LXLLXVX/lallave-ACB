@@ -1,0 +1,77 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:media="http://search.yahoo.com/mrss/"
+    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+
+    <channel>
+        <title>Noticias - Copa del Rey</title>
+        <link>http://localhost:5173/copa</link>
+        <description>En esta página podrás ver las noticias más actuales de la Copa del Rey
+            2024/2025</description>
+
+        <item>
+            <title>MVP Movistar</title>
+            <link>http://localhost:5173/copa#new-1</link>
+            <description>El jugador más valioso (MVP) del torneo será
+                premiado por su destacada actuación. Esta sección contiene la lista
+                de MVPs anteriores y los jugadores que han brillado en la Copa
+                del Rey 2024/2025.
+            </description>
+        </item>
+
+        <item>
+            <title>Récords Individuales</title>
+            <link>http://localhost:5173/copa#new-2</link>
+            <description>Repasa los récords de jugadores, como el máximo anotador,
+                el mayor número de rebotes, asistencias y más, en la historia de la Copa
+                del Rey de Baloncesto.
+            </description>
+        </item>
+
+        <item>
+            <title>Líderes Históricos</title>
+            <link>http://localhost:5173/copa#new-3</link>
+            <description>Conoce a los jugadores y entrenadores que han dejado su huella
+                en la historia de la Copa del Rey de Baloncesto, con estadísticas
+                impresionantes y momentos clave.
+            </description>
+        </item>
+
+        <item>
+            <title>Todos los Entrenadores</title>
+            <link>http://localhost:5173/copa#new-4</link>
+            <description>Una lista de todos los entrenadores que han dirigido en la
+                Copa del Rey de Baloncesto, con información sobre sus logros y
+                contribuciones al torneo.
+            </description>
+        </item>
+
+        <item>
+            <title>Historias</title>
+            <link>http://localhost:5173/copa#new-5</link>
+            <description>Conoce historias y anécdotas curiosas que han marcado la
+                historia de la Copa del Rey, momentos inolvidables en la cancha y fuera
+                de ella.
+            </description>
+        </item>
+
+        <item>
+            <title>Debutantes</title>
+            <link>http://localhost:5173/copa#new-6</link>
+            <description>Repasa los jugadores que han debutado en la Copa del Rey
+                de Baloncesto en la temporada 2024/2025, y cómo se han destacado en
+                sus primeros partidos.
+            </description>
+        </item>
+
+        <item>
+            <title>Estadísticas</title>
+            <link>http://localhost:5173/copa#new-7</link>
+            <description>Un análisis exhaustivo de las estadísticas de la Copa del
+                Rey de Baloncesto, con detalles sobre puntos, rebotes, asistencias,
+                eficiencia y mucho más.
+            </description>
+        </item>
+
+    </channel>
+
+</rss>

@@ -11,6 +11,7 @@ const Header = () => {
     { id: 4, name: 'CLUBES', href: 'clubes' },
     { id: 5, name: 'COPA DEL REY', href: 'copa' },
     { id: 6, name: 'SUPERCOPA ENDESA', href: '#' },
+    { id: 7, name: 'GESTIÓN JUGADORES', href: 'crud' },
   ];
 
   return (

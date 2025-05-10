@@ -1,0 +1,91 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.aviso-legal {
+  background-color: #242424;
+  color: #fff;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.aviso-legal:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.aviso-legal h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.aviso-legal section {
+  margin-bottom: 25px;
+}
+
+.aviso-legal h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.aviso-legal p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #ddd;
+  text-align: justify;
+}
+
+.aviso-legal ul {
+  list-style-type: square;
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+.aviso-legal a {
+  color: #f6a500;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.aviso-legal a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.aviso-legal .footer-links {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  border-top: 1px solid #444;
+}
+
+.aviso-legal .footer-links a {
+  color: #f6a500;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.aviso-legal .footer-links a:hover {
+  color: #fff;
+}

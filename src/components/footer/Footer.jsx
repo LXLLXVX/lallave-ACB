@@ -1,19 +1,50 @@
 import 'react';
 import './Footer.css';
+import { Link } from "react-router-dom";
+
 
 const Footer = () => {
+
+
+
+
   return (
+
+    
     <footer className="footer">
+
+      <div className='footer-links'>
+
+      <Link to="/legal" className="footer-link">
+        Aviso Legal
+      </Link>
+
+<b> </b>
+<b>| </b>
+
+      <Link to="/privacy" className="footer-link">
+        Política de Privacidad
+      </Link>
+
+<b> </b>
+<b>| </b>
+
+      <Link to="/cookies" className="footer-link">
+        Política de Cookies
+      </Link>
+
+<b> </b>
+<b>| </b>
+
+      <Link to="/terms" className="footer-link">
+        Términos y Condiciones
+      </Link>
+
+      </div>
+
       <div className="footer-container">
         <div className="footer-logo">
           <img src="/images/liga-endesa.png" alt="Liga Endesa" className="footer-logo-img" />
-        </div>
-
-        <div className="footer-links">
-          <a href="https://www.acb.com/Documentos/aviso_legal_acbcom.pdf">Aviso Legal</a>
-          <a href="https://www.acb.com/index/politica">Política de Privacidad</a>
-          <a href="https://www.acb.com/aviso-cookies/politica">Política de cookies</a>
-          <a href="https://acb.com/articulo/ver/398617-normativa-aplicable-a-la-acb.html">Términos y Condiciones</a>
         </div>
 
         <div className="footer-social">
@@ -86,5 +117,7 @@ const Footer = () => {
     </footer>
   );
 };
+
+
 
 export default Footer;
